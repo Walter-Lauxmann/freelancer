@@ -114,6 +114,7 @@ h3 {
 }
 
 .hero {
+  background-position: center center;
   background-image: url(../imagenes/hero.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -121,6 +122,8 @@ h3 {
   position: relative;
   margin-bottom: 2rem;
 }
+
+section.hero {}
 .contenido-hero {
   position: absolute;
   background-color: rgba(0, 0, 0, 0.7);
